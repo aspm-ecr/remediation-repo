@@ -37,7 +37,4 @@ func hello(w http.ResponseWriter, r *http.Request, p httprouter.Params) {
 func main() {
 	router := httprouter.New()
 	router.POST("/hello/:name", hello)
-
-
-	if err!= nil{}
 }
